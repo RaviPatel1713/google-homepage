@@ -65,17 +65,22 @@ html {
 
 li {
     list-style: none;
+    font-size: 2rem;
+    font-family: arial,sans-serif;
+}
+li:hover {
+    text-decoration: underline;
 }
 
 a {
     text-decoration: none;
+    color: rgb(82, 82, 82);
 }
 
 /* header, header navbar styling */
 .header-section {
     margin: auto;
-    padding: 0;
-    background-color: rgb(219, 219, 219);
+    padding: 0 2rem;
 }
 
 .header-section nav {
@@ -93,6 +98,14 @@ a {
     align-items: center;
 }
 
+#header-navbar li {
+    padding: 2rem;
+}
+
+#second-navbar-section #icon_more_google_apps {
+    width: 3rem;
+}
+
 
 /* main content styling */
 .main-section {
@@ -104,14 +117,13 @@ a {
 }
 
 #search_bar {
-
     display: flex;
     border: 1px solid;
     max-width: 660px;
     margin: 3rem auto;
     padding: 15px;
     border-radius: 100px;
-    border-color: gray;
+    border-color: rgb(187, 187, 187);
 }
 
 #search_bar input {
