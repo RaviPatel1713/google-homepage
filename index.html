@@ -12,8 +12,8 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="gh.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap" rel="stylesheet" />
+    <!-- <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" rel="stylesheet" /> -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap" rel="stylesheet" /> -->
 </head>
 
 <body>
@@ -32,18 +32,39 @@
                         <img id="icon_more_google_apps" src="img/icon_more_apps.webp" alt="icon-more-google-apps">
                     </a>
                 </li>
-                <li><a href="">Account</a></li>
+                <li>
+                    <img 
+                    id="icon_signed_in_user"
+                    src="https://lh3.googleusercontent.com/ogw/ADGmqu9md9MDsTtcxviByyW4sbIdiWHJcJNvrOc4v2oz=s32-c-mo" 
+                    alt="Signed in by Ravi Patel" 
+                    aria-hidden="true" 
+                    data-noaft="" 
+                    data-iml="1617644929074" 
+                    data-atf="1">
+                </li>
             </ul>
         </nav>
     </header>
 
     <!-- main content section -including search engine and button to send request -->
     <main class="main-section">
-        <img id="icon_google_" src="img/google_icon.png" alt="Google Search Engine Icon">
+        <img 
+        id="icon_google_" 
+        src="img/google_icon.png" 
+        alt="Google Search Engine Icon"
+        >
         <div id="search_bar">
-            <img id="icon_google_search" src="img/black-24dp/2x/outline_search_black_24dp.png" alt="">
-            <input type="text">
-            <img id="icon_google_mic" src="img/1200px-Google_mic.svg.png" alt="">
+            <img 
+            id="icon_google_search" 
+            src="img/black-24dp/2x/outline_search_black_24dp.png" 
+            alt="google search icon"
+            >
+            <input name="text" type="text">
+            <img 
+            id="icon_google_mic" 
+            src="img/1200px-Google_mic.svg.png" 
+            alt="google mic icon"
+            >
         </div>
         <div id="search_button_grid">
             <button id="button_google_search" type="submit">Google Search</button>
@@ -53,26 +74,27 @@
 
     <!-- footer section -->
     <footer class="footer-section">
-        <p id="carbon_neutral_tag"><img src="img/carbon_neutral_leaf-300x300.png" alt="carbon neutral signature">
-            Carbon neutral since 2007
-        </p>
-        <nav class="footer-navbar">
-            <ul id="business_and_operations_info">
+        <div id="carbon_neutral_tag">
+            <img 
+            id="icon_carbon_neutral" 
+            src="img/carbon_neutral_leaf-300x300.png" 
+            alt="carbon neutral signature"
+            >
+            <a>Carbon neutral since 2007</a>
+        </div>
+        <nav>
+            <ul id="business_and_operations_info_section">
                 <li><a href="">Advertising</a></li>
                 <li><a href="">Business</a></li>
                 <li><a href="">How Search works</a></li>
             </ul>
-            <ul id="terms_and_settings_info">
+            <ul id="terms_and_settings_info_section">
                 <li><a href="">Privacy</a></li>
                 <li><a href="">Terms</a></li>
                 <li><a href="">Settings</a></li>
             </ul>
         </nav>
-
     </footer>
-
-
-
     <script src="gh.js" async defer></script>
 </body>
 
